@@ -28,7 +28,7 @@ namespace ConsoleApp22
                 {
                     if (i == j || i == j - 1 || i == j + 1)
                     {
-                        goto marker;
+                        continue;
                     }
                     else
                     {
@@ -42,7 +42,7 @@ namespace ConsoleApp22
                             diametyr = dyljina;
                         }
                     }
-                           marker:;
+                        
                 }
             }
             Console.WriteLine($"nai dylgiq diametyr {diametyr}");
